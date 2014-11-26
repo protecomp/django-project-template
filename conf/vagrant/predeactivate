@@ -1,0 +1,9 @@
+unset IPYTHONDIR
+unset PROJECT_ROOT
+unalias cdsrc
+unalias cdroot
+unalias m
+unalias mr
+unalias mrp
+unalias cs
+unalias f

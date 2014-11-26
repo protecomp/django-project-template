@@ -1,0 +1,6 @@
+Django >=1.6 <1.7
+
+Fabric
+Celery
+
+-e http://github.com/protecomp/django-extra#egg=protecomp_django_extra

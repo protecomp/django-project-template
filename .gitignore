@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 
+# Project configuration
+settings/__init__.py
+.vagrant
+Vagrantfile
+
+
 # C extensions
 *.so
 

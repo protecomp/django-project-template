@@ -1,0 +1,17 @@
+export IPYTHONDIR=$VIRTUAL_ENV/.ipython
+export PROJECT_ROOT=/home/vagrant/development
+
+alias cdsrc="cd $VIRTUAL_ENV/src"
+alias cdroot="cdproject"
+
+alias m="python $PROJECT_ROOT/manage.py"
+alias mr="python $PROJECT_ROOT/manage.py runserver 0.0.0.0:8000"
+alias mrp="python $PROJECT_ROOT/manage.py runserver_plus 0.0.0.0:8000"
+alias cs='m collectstatic --noinput'
+alias f='fab -f $PROJECT_ROOT/conf/fabfile.py'
+
+if [ ! -z "$VIRTUALENV_PS1" ] ; then
+    export _OLD_VIRTUAL_PS1="$PS1"
+    PS1="$VIRTUALENV_PS1"
+    export PS1
+fi
